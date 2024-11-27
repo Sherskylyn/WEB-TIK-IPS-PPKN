@@ -1,0 +1,137 @@
+header{
+    width: 1280px;
+    position: fixed;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(cute\ lil\ laptop\ wallpaper🧿.jpeg);
+    text-align: center;
+    color: black;
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+p{
+    font: 2em;
+    color: #dee2d9;
+    margin-bottom: 20px;
+    background-color: #FF9C73;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #CB9DF0; 
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+li{
+  float: left;
+   text-align: center;
+   margin: 0px 90px;
+}
+
+
+li a, .dropbtn{
+    display: inline-block;
+    color: #530808; 
+    padding: 14px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: beige;
+    text-align: center;
+}
+
+li.dropdown{
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FBD288;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(222,171,171);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: #FF4545;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    background-color: #FF9C73;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-image: #f2eaea;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.image-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-image{
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #b1d0e9;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-image:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+}
+
+main{
+    flex: 1;/*Konten Utaman mengisi ruang yang tersisa*/;
+}
+
+footer{
+    background: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    width: 1280px;
+    position: fixed;
+}
+
+footer img{
+    max-width: 1280px;
+    max-height: 100px;
+}
